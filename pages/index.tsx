@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import MainLayout from "../layouts/MainLayout";
 
 const Main = () => {
     return (
-        <div>
-            Main Page
-        </div>
-    )
-}
+        <>
+            <MainLayout>
+                <div>
+                    <h1>Hello everyone</h1>
+                    <h3>The best tracks</h3>
+                </div>
+            </MainLayout>
+        </>
+    );
+};
 
 export default Main;
