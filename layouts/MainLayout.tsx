@@ -23,7 +23,7 @@ const MainLayout: React.FC<MainLayoutProps>
                 <title>{title || 'Music platform'}</title>
                 <meta name="description" content={`Music platform. Everyone can upload own track and will become famous.` + description}/>
                 <meta name="robots" content="index, follow"/>
-                <meta name="keywords" content={keywords || "Musics, "}/>
+                <meta name="keywords" content={keywords || "Music, track, song"}/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </Head>
             <Navbar/>
